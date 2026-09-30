@@ -33,7 +33,7 @@ function Icon({ name, size = 20, className = '' }: { name: IconName; size?: numb
 }
 
 function Brand({ light = false }: { light?: boolean }) {
-  return <a className={`brand ${light ? 'brand-light' : ''}`} href="/#inicio" aria-label="ACR Medical Center — início"><span className="brand-mark"><span /><span /></span><span className="brand-wordmark"><strong>ACR</strong><small>MEDICAL CENTER</small></span></a>
+  return <a className="brand" href="/#inicio" aria-label="ACR Medical Center — início"><img src={light ? '/logo-light.png' : '/logo.png'} alt="" height={46} /><span className="brand-name">Medical Center</span></a>
 }
 
 function Header() {
