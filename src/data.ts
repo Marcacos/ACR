@@ -56,9 +56,9 @@ export const faq = [
 ]
 
 export const photos = [
-  { label: 'Recepção e acolhimento', className: 'photo-reception' },
-  { label: 'Ambiente de atendimento', className: 'photo-care' },
-  { label: 'Espaço integrado', className: 'photo-integrated' },
+  { src: '/fotos/recepcao-balcao.jpg', alt: 'Recepção da ACR Medical Center com balcão em mármore escuro e logo na parede', label: 'Recepção' },
+  { src: '/fotos/recepcao-logo.jpg', alt: 'Parede em mármore branco com a logo ACR Medical Center e luminárias pendentes', label: 'Ambiente acolhedor' },
+  { src: '/fotos/fachada-frontal.jpg', alt: 'Fachada de vidro do edifício ACR Medical Center', label: 'Nosso edifício' },
 ]
 
 export const whatsappLink = (message: string) => `https://wa.me/${clinic.whatsappNumber}?text=${encodeURIComponent(message)}`

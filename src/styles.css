@@ -62,3 +62,8 @@ body,.hero,.site-header,.site-header nav,.about-section,.faq-section,.specialtie
 .trust-strip,.exams-section,.location-section{background:#faf8f4}
 .contact-form{background:#fff}
 @media(max-width:760px){.site-header nav{background:#fff}}
+
+/* Fotos reais */
+.hero-visual{background:#ece8e1}.hero-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block}
+.gallery-tile{margin:0}.gallery-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.gallery-tile:first-child img{object-position:center 40%}.gallery-caption{z-index:1;font-size:18px;font-weight:600}
